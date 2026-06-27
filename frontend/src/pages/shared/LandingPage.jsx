@@ -179,15 +179,14 @@ const LandingPage = () => {
       {/* Hero Section */}
       <section className={s.heroSection}>
         <div className={s.heroContent}>
-          <span className={s.badge}>Trusted by 20,000+ homeowners</span>
+          <span className={s.badge}>Verified listings for real buyers and sellers</span>
           <h1 className={s.heroTitle}>
             Find Your <span className={s.textGradient}>Perfect</span> Next
             Chapter.
           </h1>
           <p className={s.heroSubtitle}>
-            Experience the most advanced real estate search platform. Discover
-            verified listings, connect with top agents, and find a place you'll
-            love.
+            Discover verified listings, connect directly with sellers, and find
+            a place you'll love.
           </p>
 
           {/* Integrated Search */}
