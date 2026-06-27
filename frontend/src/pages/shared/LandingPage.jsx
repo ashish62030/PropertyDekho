@@ -456,7 +456,11 @@ const LandingPage = () => {
             {/* Column 1: Brand & About */}
             <div className={s.footerBrand}>
               <div className={s.brandLogo}>
-                <div className={s.brandIcon}>RE</div>
+                <img
+                  src={logo}
+                  alt="ApnaPlot"
+                  className="h-10 w-10 object-contain"
+                />
                 ApnaPlot
               </div>
               <p className={s.brandDesc}>
