@@ -27,11 +27,8 @@ connectDB();
 
 //middlewares
 const configuredOrigins = [
-  "http://localhost:5173",
-  "https://apnaplot.vercel.app",
-  "https://apnaplot-frontend.vercel.app",
-  "https://propertydekho.vercel.app",
-  "https://propertydekho-frontend.vercel.app",
+  "https://property-dekho-frontend-one.vercel.app",
+ 
   process.env.CLIENT_URL,
   process.env.CLIENT_URLS,
 ]
