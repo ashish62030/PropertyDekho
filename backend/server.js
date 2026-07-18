@@ -28,6 +28,8 @@ connectDB();
 //middlewares
 const configuredOrigins = [
   "http://localhost:5173",
+  "https://apnaplot.vercel.app",
+  "https://apnaplot-frontend.vercel.app",
   "https://propertydekho.vercel.app",
   "https://propertydekho-frontend.vercel.app",
   process.env.CLIENT_URL,
@@ -44,6 +46,7 @@ const isAllowedOrigin = (origin) => {
   const normalizedOrigin = origin.replace(/\/$/, "");
   return (
     allowedOrigins.includes(normalizedOrigin) ||
+    /^https:\/\/[^/]*apnaplot[^/]*\.vercel\.app$/.test(normalizedOrigin) ||
     /^https:\/\/[^/]*propertydekho[^/]*\.vercel\.app$/.test(normalizedOrigin)
   );
 };
