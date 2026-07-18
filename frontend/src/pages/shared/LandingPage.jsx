@@ -325,7 +325,7 @@ const LandingPage = () => {
           </div>
           <div className={s.featuresContent}>
             <h2 className={s.featuresHeading}>
-              Why ApnaPlot
+              Why PropertyDekho
               <br />
               is the <span className={s.textGradient}>Preferred Choice.</span>
             </h2>
@@ -456,7 +456,7 @@ const LandingPage = () => {
             {/* Column 1: Brand & About */}
             <div className={s.footerBrand}>
               <div className={s.brandLogo}>
-                ApnaPlot
+                PropertyDekho
               </div>
               <p className={s.brandDesc}>
                 The most trusted platform for buying, selling, and renting
@@ -506,7 +506,7 @@ const LandingPage = () => {
               <ul className={s.footerLinks}>
                 <li className={s.contactInfo}>
                   <HiMail className="text-primary text-xl" />{" "}
-                  contact@apnaplot.com
+                  contact@propertydekho.com
                 </li>
                 <li className={s.contactInfo}>
                   <HiPhone className="text-primary text-xl" /> +91 1234567890
@@ -552,7 +552,7 @@ const LandingPage = () => {
           <div className={s.bottomBar}>
             <div className={s.bottomBarFlex}>
               <p>
-                © {new Date().getFullYear()} ApnaPlot. All rights reserved.
+                © {new Date().getFullYear()} PropertyDekho. All rights reserved.
               </p>
               <div className={s.footerLegalLinks}>
                 <a href="#" className={s.footerLink}>

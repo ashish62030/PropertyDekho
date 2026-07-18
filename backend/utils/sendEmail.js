@@ -9,7 +9,7 @@ const sendEmail = async (options) => {
 
         const data = {
             sender: {
-                name: "ApnaPlot",
+                name: "PropertyDekho",
                 email: process.env.EMAIL_USER
             },
             to: [{ email: options.email }],

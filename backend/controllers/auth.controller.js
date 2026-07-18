@@ -37,7 +37,7 @@ export const register = async (req, res) => {
         try {
             await sendEmail({
                 email,
-                subject: "Verify Your Email - ApnaPlot",
+                subject: "Verify Your Email - PropertyDekho",
                 message: `<p>Your email verification code is: <strong>${verificationToken}</strong></p><p>Please enter this code on the verification page to activate your account.</p>`,
             });
         } catch (emailError) {
@@ -191,7 +191,7 @@ export const forgotPassword = async (req, res) => {
         try {
             await sendEmail({
                 email: user.email,
-                subject: "Password Reset - ApnaPlot",
+                subject: "Password Reset - PropertyDekho",
                 message,
             });
             res.status(200).json({ message: "Password reset email sent", success: true });

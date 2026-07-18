@@ -19,7 +19,7 @@ const Logo = ({
       <div className={s.iconWrapper}>
         <HiOutlineLibrary size={iconSize} />
       </div>
-      {showText && <span className={s.text}>ApnaPlot</span>}
+      {showText && <span className={s.text}>PropertyDekho</span>}
     </Link>
   );
 };
